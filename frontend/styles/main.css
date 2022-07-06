@@ -1,0 +1,572 @@
+/* Codingan 1 */
+.navbar {
+    border-radius: 45px;
+}
+
+.navbar-brand {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: white !important;
+}
+
+.nav-item {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.nav-item .nav-link {
+    font-weight: 600;
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: #000000 !important;
+}
+
+/* Hero Section */
+.hero-section {
+    margin-top: 45px;
+}
+
+.hero-section h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 96px;
+}
+
+.hero-section p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+}
+
+.hero-section text {
+    position: absolute;
+    width: 155px;
+    height: 30px;
+    left: 168px;
+    top: 432px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.btn:hover {
+    color: #000000 !important;
+
+}
+
+.hero-section .btn-cta {
+    width: 240px;
+    height: 46px;
+    left: 104px;
+    top: 417px;
+
+    background: rgba(137, 120, 94, 0.9);
+    border-radius: 10px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;   
+    color: white; 
+}
+/* Hero Section Tutup */
+
+/* Categories */
+.categories {
+    margin-top: 46px;
+    color: rgba(0, 0, 0, 0.55);
+}
+
+.tag {
+    background: #97876F;
+    border-radius: 0px 15px 0px 0px;
+    padding: .50rem 2.25rem;
+    min-height: 30px;
+    left: 15px;
+    z-index: 3;
+    bottom: 0;
+    position: absolute;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: white;
+}
+
+.categories-thumbnail {
+    height: 450px;
+    width: 100%;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.categories-img {
+    height: 100%;
+    width: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    transition: all 0.3s ease;
+}
+
+.categories-thumbnail:hover .categories-img {
+    transform: scale(1.1);
+}
+/* Categories Tutup */
+
+/* Popular Product */
+.product {
+    background: rgba(151, 135, 111, 0.7);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    padding-top: 30px;
+    margin-top: 30px;
+}
+
+.product .col-12 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+
+    color: #FFFEFE;
+    
+}
+
+.component-product {
+    border-radius: 5px;
+    border: #000000;
+    padding-bottom: 15px;
+
+    margin-bottom: 60px;
+    transition: all 0.25s ease-in-out;
+}
+
+.component-product:hover {
+    transform: scale(1.1);
+    text-decoration: none;
+}
+
+.product-image {
+    padding: 0.5px;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.product-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+    text-transform: uppercase;
+    line-height: 24px;
+    background: #C4C4C4;
+}
+
+.product-price {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    background: #C4C4C4;
+    color: #000000;
+
+}
+/* Popular Product Tutup */
+
+/* Bagstore */
+.bagstore {
+    padding-top: 100px;
+    padding-bottom: 40px;
+    font-family: 'Inter';
+}
+
+.bagstore .btn-cta {
+    font-family: Inter;
+    margin-top: 100px;
+}
+/* Bagstore Tutup*/
+
+/* Address */
+.address {
+    height: 290px;
+    background: rgba(137, 120, 94, 0.31);
+    border-radius: 45px;
+    color: #000000;
+}
+
+.address p {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+}
+
+.address h2 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #000000;
+}
+/* Address Tutup */
+
+/* Footer */
+.footer .col-12 {
+    position: absolute;
+    width: 1440px;
+    left: 0px;
+    
+    background: #89785E;
+    border-radius: 45px;
+    text-align: center;
+}
+
+.footer p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+}
+/* Footer Tutup */
+
+/* Codingan 2 */
+/* Details */
+.details .col-12 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.xzoom-details {
+    padding-top: 160px;
+    box-sizing: border-box;
+}
+
+.xzoom-details:hover {
+    transform: scale(1.1);
+    text-decoration: none;
+}
+
+.w-100 {
+    width: 100% !important;
+}
+
+.d-block {
+    display: block !important;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.xzoom-thumbs {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.xzoom-gallery {
+    margin-left: 15px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.xzoom-gallery:hover {
+    transform: scale(1.1);
+    text-decoration: none;
+}
+/* Details Tutup */
+
+/* Description */
+.description {
+    padding-top: 130px;
+}
+/* Description Tutup */
+
+/* Content */
+.content h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 90px;
+}
+
+.bag-heading {
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.21);
+    border-radius: 50px;
+}
+
+.card {
+    height: 60%;
+}
+
+.p-5 {
+    padding: 2.5rem !important;
+}
+
+.bag-heading .booking-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 27px;
+    line-height: 33px;
+
+    color: #000000;
+}
+
+.btn-form {
+    background: rgba(3, 13, 255, 0.37);
+}
+
+.btn-form:hover {
+    color: #FFFFFF !important; 
+}
+
+.bagstore2 {
+    padding-top: 100px;
+    padding-bottom: 40px;
+    font-family: 'Inter';
+}
+
+
+/* Codingan 3 */
+/* Booking Information */
+.booking-information {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+}
+
+.booking p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 38px;
+}
+/* Booking Information Tutup */
+
+/* Data */
+.form-booking label {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
+.input-group {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+}
+
+.form-booking .input-group .form-control {
+    border: 0;
+    background: rgba(196, 196, 196, 0.3);
+    border-radius: 5px;
+    padding-top: 0.575rem;
+    padding-bottom: 0.575rem;
+    margin-bottom: 25px;
+}
+/* Data Tutup */
+
+/* Tombol */
+.tombol {
+    margin-top: 180px;
+    margin-bottom: 200px;
+}
+
+.btn-continue-booking {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 23px;
+    line-height: 36px;
+    background: rgba(3, 13, 255, 0.37);
+    border-radius: 5px;
+    color: #FDFDFD;
+    
+}
+
+.btn-cancel-booking {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 26px;
+    line-height: 36px;
+    background: rgba(3, 13, 255, 0.27);
+    border-radius: 5px;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+/* Tombol Tutup */
+
+/* Codingan 4 */
+.payment-confirm {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+}
+
+.payment {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 60px;
+}
+
+.bca {
+    position: absolute;
+    left: 150px;
+    top: 200px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    color: #000000;
+}
+
+.bsi {
+    position: absolute;
+    left: 150px;
+    top: 310px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    color: #000000;
+
+}
+
+.btn-confirm-payment {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 23px;
+    line-height: 36px;
+    
+    color: #000000;
+
+    background: rgba(3, 13, 255, 0.37);
+    border-radius: 5px;
+     
+}
+
+.btn-cancel-payment:hover {
+    color: #FFFFFF !important;
+}
+
+.btn-cancel-payment {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 26px;
+    line-height: 36px;
+
+    color: #000000;
+
+    opacity: 0.5;
+    background: rgba(3, 13, 255, 0.27);
+    border-radius: 5px;
+}
+
+.btn-confirm-payment:hover {
+    color: #FFFFFF !important;
+}
+
+/* Codingan 5 */
+.order-finish {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+}
+
+.order {
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 40px;
+    
+}
+
+.finish {
+    margin-top: 120px;
+}
+
+.finish p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+
+    color: #000000;
+
+    margin-top: 80px;
+}
+
+.btn-back-home {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 40px;
+
+    color: #3d3b3b;
+
+    background: rgba(3, 13, 255, 0.37);
+    border-radius: 50px;
+}
+
+.btn-back-home:hover {
+    color: #FFFFFF !important;
+
+}
